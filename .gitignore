@@ -1,0 +1,15 @@
+# 1. Chặn TẤT CẢ mọi thứ (Khoá cửa toàn bộ)
+*
+
+# 2. Cho phép Git đi vào thư mục 'noi_dung'
+!noi_dung/
+
+# 3. Chỉ cho phép lấy file .ipynb nằm TRONG thư mục 'noi_dung'
+!noi_dung/*.ipynb
+
+# 4. Cho phép lấy file README.md ở thư mục gốc
+!README.md
+!Readme.md
+
+# 5. Giữ lại file .gitignore này
+!.gitignore
